@@ -1,14 +1,14 @@
 [
   {
-    "label": "$ZED_SYMBOL",
-    "command": "task --taskfile $ZED_FILENAME $ZED_SYMBOL",
-    "cwd": "$ZED_DIRNAME",
+    "label": "$GRAM_SYMBOL",
+    "command": "task --taskfile $GRAM_FILENAME $GRAM_SYMBOL",
+    "cwd": "$GRAM_DIRNAME",
     "tags": ["taskfile-task"]
   },
   {
     "label": "task: list tasks",
-    "command": "task --taskfile $ZED_FILENAME --list-all",
-    "cwd": "$ZED_DIRNAME",
+    "command": "task --taskfile $GRAM_FILENAME --list-all",
+    "cwd": "$GRAM_DIRNAME",
     "tags": ["taskfile-list"]
   }
 ]
